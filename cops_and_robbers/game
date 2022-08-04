@@ -1,1 +1,5 @@
-cops and robbers
+cops and robbers:
+
+There are two kinds of players in a grid: cops and robbers, while each
+game must have at least one cop and one robber. Every turn, only one player can move, and players are able to move up, down, left and right, but cannot
+move out of the border. As soon as the cops catch the robber, the robbers win,and as soon as the maximum number of turns is over, the robbers win.
