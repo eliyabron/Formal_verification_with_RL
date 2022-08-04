@@ -1,1 +1,6 @@
-Catch the cheese
+Catch the cheese:
+
+n a grid there is one player and two different kinds of squares- a hole or the
+cheese. The player P must move to catch the cheese C without falling into the
+pit O. The player gets one point of each cheese he finds and loses if he falls into
+the pit. The game ends if the user gets either 5 points or falls into the hole.
