@@ -1,1 +1,4 @@
-frozen lake
+frozen lake:
+there is a grid contains four types of squares – start (upper left), finish (bottom right), frozen and hole.
+The player can move either up, down, left or right but is stopped once is at the boarder (if the player is at the upper boarder he can’t move up and stay in
+place). If the player takes a step into a “hole” square he lost the game, and if he reaches the goal he wins.
