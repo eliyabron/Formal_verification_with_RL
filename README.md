@@ -2,9 +2,12 @@
 Official implementation of "Learning Through Imitation by using Formal
 Verification"
 
-
+<p align="center">
+![](https://github.com/eliyabron/Formal_verification_with_RL/blob/main/Images/Fig1.jpg)
+</p>
 
 ## Introduction
+
 Reinforcement-Learning-based solutions have achieved many
 successes in numerous complex tasks. However, their training process has
 a tendency to be unstable, and achieving convergence can be difficult,
@@ -25,6 +28,10 @@ using the model checker as expert who tells us in which starting points the robb
 
 ### Frozen lake:
 we showed that when RL algorithm Q learning failed to find the optimal solution for the game frozen lake the model checker when used as an expert can help the Q learning learn the optimal solution. To change the size of the board:change the parameter size in parametrs_run.py To activate the model checker change useNusmv to 1 in parametrs_run.py else 0 There need to be a model checker in a directory tests in order to use it.
+
+<p align="center">
+![](https://github.com/eliyabron/Formal_verification_with_RL/blob/main/Images/Hard.jpg)
+</p>
 
 ### Catch the cheese:
 in this cide we showed how model checkers can be used as expert and help a RL algorithm learn the optimal move in states he did not see during the training. when we do not give enough steps the algorithm ca not learn the solution but the model checker is able to teach him the right move. change the parameters un the file parameters_run.py. in order to use the model checker there need to be a directory tetst and put the model checker there.
