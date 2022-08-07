@@ -24,8 +24,7 @@ methods into the training process of Reinforcement Learning methods.
 ![](https://github.com/eliyabron/Formal_verification_with_RL/blob/main/Images/Games.jpg)
 
 ### Cops and robbers:
-Using the model checker as expert who tells us in which starting points the robbers will get away,and then start the next episod from this point. help us to reach the optimal solution with much less iterations. in order to use the model checker you will need directory tests and put it there with the txt files: add_end.txt, add_LTL.txt ,add_CTL.txt
-Run the following script
+Using the model checker as expert who tells us in which starting points the robbers will get away, and then start the next episod from this point. Help us to reach the optimal solution with much less iterations. Save the following files in test directory: add_end.txt, add_LTL.txt ,add_CTL.txt, and run the following script:
 ```
 CaRgame.py
 ```
