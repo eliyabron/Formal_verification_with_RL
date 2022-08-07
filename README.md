@@ -32,6 +32,7 @@ CaRgame.py
 
 ### Frozen lake:
 We showed that when RL algorithm Q-learning failed to find the optimal solution for the game frozen lake the model checker when used as an expert can help the Q-learning learn the optimal solution. One can control the size of the board by change the parameter size in parametrs_run.py. To activate the model checker change useNusmv to 1 in the same script.
+
 ![](https://github.com/eliyabron/Formal_verification_with_RL/blob/main/Images/Hard.jpg)
 
 ### Catch the cheese:
