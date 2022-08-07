@@ -1,4 +1,8 @@
 # Formal_verification_with_RL
+Official implementation of "Learning Through Imitation by using Formal
+Verification"
+
+
 
 ## Introduction
 Reinforcement-Learning-based solutions have achieved many
