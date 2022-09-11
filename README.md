@@ -25,7 +25,7 @@ methods into the training process of Reinforcement Learning methods.
 
 1.	First Download and Install nuXmv from [this link](https://nuxmv.fbk.eu/pmwiki.php?n=Download.Download).
 
-2.	Download desired code to a designated folder.
+2.	Create a folder in which to save the desired code.
 
 3.	Open a new folder named “tests” and put a copy of nuXmv in there.
 
