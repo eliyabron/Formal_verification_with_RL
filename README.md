@@ -22,14 +22,22 @@ methods into the training process of Reinforcement Learning methods.
 
 ## Installation and run steps:
 <p align="justify">
-1.	First Download and Install nuXmv from this link: https://nuxmv.fbk.eu/pmwiki.php?n=Download.Download
+
+1.	First Download and Install nuXmv from [this link](https://nuxmv.fbk.eu/pmwiki.php?n=Download.Download).
+
 2.	Download desired code to a designated folder.
+
 3.	Open a new folder named “tests” and put a copy of nuXmv in there.
+
 4. In each game run the code from the file:
+
    * Cops and Robbers: CaRgame_1.py
+   
    * Frozen Lake: main.py
+   
    * Catch the Cheese: main.py
 </p>
+
 ## Games
 
 ![](https://github.com/eliyabron/Formal_verification_with_RL/blob/main/Images/Games.jpg)
@@ -38,6 +46,7 @@ methods into the training process of Reinforcement Learning methods.
 <p align="justify">
 Using the model checker as expert who tells us in which starting points the robbers will get away, and then start the next episod from this point. Help us to reach the optimal solution with much less iterations. Save the following files in test directory: add_end.txt, add_LTL.txt ,add_CTL.txt, and run the following script:
 </p>
+
 ```
 CaRgame.py
 ```
